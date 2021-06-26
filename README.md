@@ -27,6 +27,8 @@ Para la separacion de las imagenes entre datos de entrenamiento y datos de valid
 
 ### Placa
 
+Se deben crear la carpeta porProcesar,faces y el archivo errores.txt para el correcto funcionamiento del codigo.
+
 Dentro de la carpeta faces se deben colocar las imagenes referentes a las persoans que van a ser predecidas por el sistema (en formato jpg o png).
 En la carpeta porProcesar se situaran las imagenes de manera temporal durante su procesamiento.
 Dentro del archivo proceso2.py se debe indicar el modelo de tflite que se va a usar dentro de la funcion deteccionDeSentimiento ademas de las credenciales de la base de datos dentro de la funcion envioBBDD. 
